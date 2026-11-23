@@ -1,0 +1,50 @@
+# Virtual Environments
+.assamenv/
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Byte-compiled / optimized / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# YOLO / Ultralytics run outputs and predictions
+runs/
+outputs/
+
+# Test outputs & temporary generated files
+tests/annotated_*.jpg
+tests/annotated_*.jpeg
+tests/annotated_*.png
+tests/results.json
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Large Model weights (Optional / recommended if weights are tracked elsewhere, e.g. Hugging Face / DVC)
+# models/*.pt
+# models/*.onnx
+# models/*.engine
+
+# Training datasets / local test media (uncomment if images should not be committed)
+# images/
